@@ -18,9 +18,9 @@ class PostFactory extends Factory
     {
         return [
             // ランダムなタイトル
-            'title' => $this->faker->sentence(),
+            'title' => $this->faker->realText(20),
             // ランダムな本文
-            'content' => $this->faker->paragraph(),
+            'content' => $this->faker->realText(100),
             'user_id' => 7,
         ];
     }
