@@ -21,7 +21,7 @@ class PostFactory extends Factory
             'title' => $this->faker->realText(20),
             // ランダムな本文
             'content' => $this->faker->realText(100),
-            'user_id' => 7,
+            'user_id' => 1,
         ];
     }
 }
